@@ -1,0 +1,83 @@
+@import "reset_plus.scss";
+
+body {
+	margin: 15vh auto;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	max-width: 80vw;
+	background-color: rgb(205, 231, 255);
+}
+
+h1 {
+	font-size: 3.5rem;
+	margin-bottom: 1.5rem;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 1.4rem;
+	margin-bottom: 3rem;
+}
+
+.answer {
+	font-size: 3rem;
+	margin-bottom: 5rem;
+	font-weight: bold;
+	line-height: 4rem;
+}
+
+.reset {
+	font-size: 1.5rem;
+	color: black;
+	border: solid black 0.1rem;
+	border-radius: 2rem;
+	padding: 1.5rem 3rem;
+	background-color: rgb(242, 204, 253);
+}
+
+.questiontitle {
+	margin-top: 37vh;
+}
+
+select {
+	display: block;
+	margin: 0 auto 1rem;
+	height: 4rem;
+	width: 55vw;
+	border-radius: 1rem;
+	padding-left: 0.7rem;
+	background-color: rgb(213, 211, 214);
+	border-color: rgb(0, 0, 0);
+}
+
+input[type="submit"]{
+	margin-top: 1rem;
+	padding: 1.5rem 3rem;
+	background-color: rgb(229, 206, 255);
+	border-radius: 2rem;
+	border-color: rgb(223, 118, 255);
+	cursor: pointer;
+	font-weight: bold;
+}
+
+option {
+	background-color: white;
+}
+
+@media (min-width: 760px) {
+	option {
+		display: inline;
+	}
+	body {
+		margin-top: 25vh;
+	}
+	.questiontitle {
+		margin-top: 40vh;
+	}
+	select {
+		width: 15vw;
+	}
+}
+
+
+
